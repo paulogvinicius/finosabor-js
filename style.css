@@ -1,0 +1,215 @@
+body {
+    background: #afadad;
+    margin: 0;
+    
+    font-family: "DM Sans", sans-serif;
+    background: #340275;
+  }
+
+  /* seção sobre */
+
+  section#sobre {
+    
+    padding-bottom: 12.5rem; /* era 200 px alterei para 12.5 rem, verificar a questão da flexibilidade */
+    padding-top: 6.25rem; /* era 100 px alterei para 6.25 rem, verificar a questão da flexibilidade */
+    background: #f36e01; 
+
+    display: flex;
+    align-items: center;
+    }
+
+    div#sob {
+    
+      width: 62.5rem; /* era 1000 px alterei para 62.5 rem, verificar a questão da flexibilidade */
+      padding-top: 4.1rem; /* era 65 px alterei para 4.1 rem, verificar a questão da flexibilidade */
+      padding-left: 9rem; /* era 150 px alterei para 9 rem, verificar a questão da flexibilidade */
+      padding-bottom: 3.1rem; /* era 50 px alterei para 3.1rem, verificar a questão da flexibilidade */
+    }
+  
+ /*Seção contato */
+
+  section#contatos {
+    
+    padding-bottom: 12.5rem; /* era 200 px alterei para 12.5 rem, verificar a questão da flexibilidade */
+    padding-top: 6.25rem; /* era 100 px alterei para 6.25 rem, verificar a questão da flexibilidade */
+    background: #340275;
+
+    display: flex;
+    align-items: center;
+    
+    
+
+  }
+
+  h1{
+    font-size: 2.5rem; /* era 40 px alterei para 2.5 rem, verificar a questão da flexibilidade */
+    line-height: 3.5rem; /* era 56 px alterei para 3.5 rem, verificar a questão da flexibilidade */
+    color: #000;
+  
+    font-weight: normal;
+    
+  }
+
+
+  div#con {
+    
+    width: 62.5rem; /* era 1000 px alterei para 62.5 rem, verificar a questão da flexibilidade */
+    padding-top: 4rem; /* era 65 px alterei para 4 rem, verificar a questão da flexibilidade */
+    padding-left: 9rem; /* era 150 px alterei para 9rem, verificar a questão da flexibilidade */
+    padding-bottom: 3.1rem; /* era 50 px alterei para 3.1 rem, verificar a questão da flexibilidade */
+  }
+  
+  button#contatos {
+
+    text-transform: uppercase;
+    font-family: 'Mulish', sans-serif;
+
+    background: #323238; /* color de fundo */
+    color: #559b82; /* cor das letras */
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 0.5rem 1rem 0.5rem 1rem; /* era 6px 15px 8px 15px alterei para 6.25 rem, verificar a questão da flexibilidade */
+    border: none; /* sem bordas */
+    border-radius: 30px; /* rendondas as bordas do seu botão */
+    height: 56px; /*tamalho ou largura do seu botão kkk */
+
+    cursor: pointer; /* quando passar um mause em cima do botão, o icone do mause mudar para uma mão */
+  }
+
+  img#con {
+    width: 19rem; /* era 300px alterei para 19rem, verificar a questão da flexibilidade */
+    height: auto;
+  }
+
+  
+  /* Contato */
+  
+  img#contato{
+    width: 6rem;
+  }
+  
+  /* footer - Final */
+  
+  footer{
+    justify-content: center;
+
+
+    /* bordas entro do footer */
+    padding-top: 4rem; /* era 50 px alterei para 4rem, verificar a questão da flexibilidade */
+    padding-left: 6.3rem; /* era 100 px alterei para 6.25 rem, verificar a questão da flexibilidade */
+    padding-bottom: 0.6rem; /* era 10 px alterei para 0.6rem, verificar a questão da flexibilidade */
+
+      max-width: 96rem;
+      margin: 0 auto;
+  
+      flex-direction: column;
+  
+      background: #000;
+  }
+
+  footer p {
+    color: #afadad;
+  }
+
+  footer img{
+    width: 30px; 
+        height: 30px;
+
+  }
+  
+  @media(max-width: 1200px){
+    .itens-center{
+        flex-direction: column;
+    }
+    footer,
+    section{
+        padding: 5rem;
+    }
+  
+  }
+  
+  /*Projetos*/
+  
+  section#projetos {
+    
+    padding-bottom: 50px;
+    padding-top: 100px;
+  
+      display: grid;
+      grid-template-columns: repeat(3, 370px);
+      place-content: center;
+      gap: 48px 60px;
+  
+      background: #340275;
+  }
+  
+  .card {
+    background: rgb(51, 51, 51);;
+    border: 2px solid #323238;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card p {
+    color: #C4C4CC;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 14px 22px 22px;
+  }
+  
+  .card h2 {
+    color: #E1E1E6;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 14px 32px 0;
+  }
+  
+  img {
+    width: 366px;
+    height: 200px;
+  }
+
+  /* div botão */
+
+  div#botão {
+    background: #340275;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 100px;
+  }
+
+  button#mais {
+    text-transform: uppercase;
+    font-family: 'Mulish', sans-serif;
+
+    background: #323238; /* color de fundo */
+    color: #559b82; /* cor das letras */
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 6px 15px 8px 15px;
+    border: none; /* sem bordas */
+    border-radius: 30px; /* rendondas as bordas do seu botão */
+    height: 56px; /*tamalho ou largura do seu botão kkk */
+
+    cursor: pointer; /* quando passar um mause em cima do botão, o icone do mause mudar para uma mão */
+  }
+
+
+  /* Mapa */
+
+  div#mapa {
+
+    justify-content: center;
+    align-items: center;
+    display: grid; /* deixar os itens alinhados um abaixo do outro */
+    padding-bottom: 100px;
+
+  }
+
+  div#mapa h1{
+    color: #559b82;
+  }
